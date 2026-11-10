@@ -1,0 +1,14 @@
+:root{--bg:#15121f;--panel:#201b31;--line:#3a3354;--fg:#f1ecff;--muted:#a39cc2;--accent:#ffb547;--bad:#ff5d6c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.7 system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+main{max-width:720px;margin:0 auto;padding:24px 16px 60px}
+h1{font-size:24px;margin:8px 0}
+h2{font-size:17px;margin:28px 0 8px;color:var(--accent)}
+.meta{color:var(--muted);font-size:13px;margin:0}
+.draft{background:#3a1d24;border:1px solid var(--bad);border-radius:10px;padding:8px 12px;font-size:13px}
+.todo{color:var(--muted);border-left:3px solid var(--line);padding-left:10px;font-size:14px}
+table{width:100%;border-collapse:collapse;font-size:13px;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{background:var(--panel)}
+a{color:#7cc4ff}
+ol,ul{padding-left:20px}
