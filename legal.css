@@ -12,3 +12,4 @@ th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-alig
 th{background:var(--panel)}
 a{color:#7cc4ff}
 ol,ul{padding-left:20px}
+.lang{font-size:14px;margin:0 0 12px;opacity:.85}
